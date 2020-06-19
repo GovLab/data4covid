@@ -154,6 +154,8 @@ a.btn:hover{
 .cta-text img{
   height:100px;
   width:100px;
+  max-height:100px;
+  max-width:100px;
 }
 .cta-text.testing p{
   margin-top:0;
