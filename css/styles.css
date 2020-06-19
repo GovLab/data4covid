@@ -52,6 +52,24 @@ body {
   text-align: center;
   padding: 0 12rem;
 }
+.hero.testing{
+  flex-direction: column;
+  text-align:center;
+  padding: 0 6rem;
+}
+.hero.testing .text{
+  text-align: center;
+  width:100%;
+}
+.hero.testing p{
+  text-align: center;
+ margin-top: 20px;
+ font-size: 1.5rem;
+}
+.hero.testing h1{
+
+ font-size: 4em;
+}
 .text{
   display:flex;
   flex-direction: column;
@@ -129,6 +147,19 @@ a.btn:hover{
 .cta-text{
   padding: 0 25rem;
 }
+.cta-text.testing{
+  text-align:center;
+  padding: 3rem 10rem;
+  background-color: var(--grey);
+}
+.cta-text img{
+  height:100px;
+  width:100px;
+}
+.cta-text.testing p{
+  margin-top:0;
+color: var(--white);
+}
 .cta-text p{
   font-weight: 100;
   color: var(--grey);
@@ -168,6 +199,10 @@ a.btn:hover{
 .repo-img img{
   width: 280px;
   height: 80px;
+}
+.repo-img img{
+  width: 240px;
+  height: 120px;
 }
 .repo-txt{
   padding: 2rem;
