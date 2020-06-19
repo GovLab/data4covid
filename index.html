@@ -29,12 +29,9 @@
 </header>
 
 <body>
-    <div class="hero">
+    <div class="hero testing">
         <div class="text">
-            <img src="img/covid-logo.png">
             <h1>#Data4COVID19</h1>
-        </div>
-        <div class="description">
             <p>#Data4COVID19 is a series of projects undertaken by The GovLab—with partners such as the OECD, Open Data
                 Charter, Luce Foundation, Microsoft, Rockefeller Foundation, SDSN TRENDS, World Economic Forum,
                 University of Washington, and others—to identify, collect, and analyze the value data can provide to the
@@ -42,11 +39,9 @@
             </p>
         </div>
     </div>
-    <div class="main-button top">
-        <a class="btn" href="https://medium.com/data-stewards-network/a-call-for-action-813669f32244" target="_blank">DATA4COVID<br><span style="font-weight:600">CALL TO ACTION</span></a>
-    </div>
-    <div class="cta-text">
-        <p>#Data4COVID19 Call for Action is a roadmap explaining how organizations can use innovative data sources—such
+    <div class="cta-text testing">
+        <img src="img/covid-logo.png">
+        <p><a style="color: #ffffff; font-weight:400" href="https://medium.com/data-stewards-network/a-call-for-action-813669f32244">#Data4COVID19 Call for Action</a> is a roadmap explaining how organizations can use innovative data sources—such
             as those derived through data collaboration—to address COVID-19 and future threats in a responsible,
             systematic, and sustainable way. The Call for Action has been co-signed by almost 500 individuals. All of
             the below projects are responses to the Call for Action.</p>
@@ -54,41 +49,46 @@
     <div class="divider">
         <h1>LIVING REPOSITORIES</h1>
     </div>
-    <div class="living-repo">
-        <div class="project-repo">
-            <div class="repo-img">
+    <div class="project-list">
+        <div class="project-item">
+            <a href="https://docs.google.com/document/d/1JWeD1AaIGKMPry_EN8GjIqwX4J4KLQIAqP09exZ-ENI/edit" target="_blank" class="project-card">
+                <div class="project-img">
                 <img src="img/repo-img.png">
-            </div>
-            <div class="repo-txt">
-                <p><b><a href="https://docs.google.com/document/d/1JWeD1AaIGKMPry_EN8GjIqwX4J4KLQIAqP09exZ-ENI/edit" target="_blank">#Data4COVID Data Collaborative Repository:</a></b><br>A collection of almost 300 data collaboratives, data
-                    competitions, requests for proposals, and other innovative public- and private-sector data work
-                    seeking to address the pandemic.</p>
-            </div>
+                </div>
+                <div class="project-text small">
+                    <p id="title">#Data4COVID Data Collaborative Repository</p>
+                    <p>A collection of almost 300 data collaboratives, data
+                        competitions, requests for proposals, and other innovative public- and private-sector data work
+                        seeking to address the pandemic.</p>
+                </div>
+            </a>
         </div>
-        <div class="project-repo">
-            <div class="repo-img">
+        <div class="project-item">
+            <a href="https://docs.google.com/document/d/1BdSnXzCZ1Z7ovOrPue3O0osRUpiqTKlu8pwG9U4DwWw/edit" target="_blank" class="project-card">
+                <div class="project-img">
                 <img src="img/oecd-img.png">
-            </div>
-            <div class="repo-txt">
-                <p><b><a href="https://docs.google.com/document/d/1BdSnXzCZ1Z7ovOrPue3O0osRUpiqTKlu8pwG9U4DwWw/edit" target="_blank">OECD–GovLab Call for Evidence on the Use of Open Government Data:</a></b><br> A living collection, supported by
-                    the
-                    OECD Digital Government and Data Unit and The GovLab, of uses of open government data on issues
-                    related
-                    to COVID-19.
-                </p>
-            </div>
+                </div>
+                <div class="project-text small">
+                    <p id="title">OECD–GovLab Call for Evidence on the Use of Open Government Data</p>
+                    <p>A living collection, supported by
+                        the
+                        OECD Digital Government and Data Unit and The GovLab, of uses of open government data on issues
+                        related
+                        to COVID-19.</p>
+                </div>
+            </a>
         </div>
     </div>
     <div class="divider projects">
         <h1>PROJECTS</h1>
     </div>
     <div class="main-button">
-        <a class="btn project" href="#videos">Developing a <br> Governance Framework</a>
-        <a class="btn project" href="#videos">Building Capacity for <br> Data Demand</a>
-        <a class="btn project" href="#videos">Establishing Data Stewardship <br> and Building a Network</a>
-        <a class="btn project last" href="#videos">Engaging<br>People</a>
+        <a class="btn project" href="#framework">Developing a <br> Governance Framework</a>
+        <a class="btn project" href="#capacity">Building Capacity for <br> Data Demand</a>
+        <a class="btn project" href="#stewards">Establishing Data Stewardship <br> and Building a Network</a>
+        <a class="btn project last" href="#people">Engaging<br>People</a>
     </div>
-    <div class="project-section first">
+    <div class="project-section first" id="framework">
         <h1>Developing a Governance Framework</h1>
         <p>The Call for Action emphasizes that public actors, private actors, and civil society should work together to develop a governance framework for the trusted reuse of privately-held data toward the public interest.</p>
     </div>
@@ -116,7 +116,7 @@
             </a>
         </div>
     </div>
-    <div class="project-section">
+    <div class="project-section" id="capacity">
         <h1>Building Capacity for Data Demand</h1>
         <p>The Call for Action emphasizes the importance of building organizational capacity to ask and formulate questions on the types of data use needed by the public.</p>
     </div>
@@ -144,7 +144,7 @@
             </a>
         </div>
     </div>
-    <div class="project-section">
+    <div class="project-section" id="stewards">
         <h1>Establishing Data Stewardship and Building a Network</h1>
         <p>The Call for Action encourages organizations to create and promote data stewards who can coordinate on and collaborate around data for the public good. </p>
     </div>
@@ -161,7 +161,7 @@
             </a>
         </div>
     </div>
-    <div class="project-section">
+    <div class="project-section" id="people">
         <h1>Engaging People </h1>
         <p>The Call for Action suggests organizations engage the public in how their data will be responsibly used, re-used, and protected.</p>
     </div>
@@ -191,12 +191,8 @@
     </div>
     <div class="stay-connected">
         <h1>Stay Up to Date</h1>
-        <p>Information on each of these project streams, as well information about upcoming coronavirus-related events, can be found in our weekly newsletter. Individuals interested in engaging with one or more of these strands can contact us at stefaan@thegovlab.org. 
-        <br>If these projects interest you, you might also be interested in The GovLab’s Covid Course, a collective intelligence course which aims to improve responses to COVID-19.</p>
-        <div class="main-button connect">
-            <a class="btn" href="mailto:stefaan@thegovlab.org">CONTACT US<br><span style="font-weight:600">STEFAAN@THEGOVLAB.ORG</span></a>
-            <a class="btn" href="https://covidcourse.thegovlab.org" target="_blank">VISIT<br><span style="font-weight:600">COVIDCOURSE.THEGOVLAB.ORG</span></a>
-        </div>
+        <p>Information on each of these project streams, as well information about upcoming coronavirus-related events, can be found in our weekly newsletter. Individuals interested in engaging with one or more of these strands can contact us at <a style="color:#ffffff;font-weight:400" href="mailto:stefaan@thegovlab.org">stefaan@thegovlab.org.</a>
+        <br>If these projects interest you, you might also be interested in The GovLab’s <a style="color:#ffffff; font-weight:400" href="https://covidcourse.thegovlab.org">Covid Course</a>, a collective intelligence course which aims to improve responses to COVID-19.</p>
     </div>
 <footer>
     <div class="logo-side">

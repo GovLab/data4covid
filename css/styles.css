@@ -67,7 +67,6 @@ body {
  font-size: 1.5rem;
 }
 .hero.testing h1{
-
  font-size: 4em;
 }
 .text{
@@ -425,6 +424,16 @@ footer{
 }
 
 @media screen and (max-width: 800px){
+  .hero.testing{
+    flex-direction: column;
+    text-align:center;
+    padding: 0 2rem;
+  }
+  .cta-text.testing{
+
+    padding: 3rem 2rem;
+
+  }
   .gl-header{
     padding:0 4rem;
     justify-content: center;
