@@ -151,11 +151,9 @@ a.btn:hover{
   padding: 3rem 10rem;
   background-color: var(--grey);
 }
-.cta-text img{
+.cta-text.testing img{
   height:100px;
   width:100px;
-  max-height:100px;
-  max-width:100px;
 }
 .cta-text.testing p{
   margin-top:0;
