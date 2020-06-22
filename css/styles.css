@@ -436,11 +436,15 @@ footer{
   .hero.testing{
     flex-direction: column;
     text-align:center;
-    padding: 0 2rem;
+    padding: 0 1rem;
+  }
+  .hero.testing h1{
+    font-size: 2rem;
+    font-weight: 600;
   }
   .cta-text.testing{
 
-    padding: 3rem 2rem;
+    padding:1rem 1rem;
 
   }
   .gl-header{
@@ -451,7 +455,7 @@ footer{
   .hero{
     padding: 0rem 2rem;
     flex-direction: column;
-    height: 60vh;
+    height: 80vh;
   }
   .hero p{
     margin: 0 0 0em 0em;
@@ -502,9 +506,12 @@ footer{
   }
   .project-list{
     flex-direction: column;
+    padding: 0 2rem;
   }
   .project-item{
     margin-top:20px;
+    width:100%;
+    padding: 0 0;
   }
   .stay-connected{
     padding: 2rem 1rem;
