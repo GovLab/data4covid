@@ -136,6 +136,9 @@ padding: 0 20px;
   margin-right:20px;
   font-weight: 400;
   font-size:1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 a.btn:hover{
   background-color: var(--yellow-dark);
