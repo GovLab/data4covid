@@ -266,14 +266,14 @@ color:var(--white70);
 .project-list{
   display:flex;
   flex-direction: row;
-  padding: 2rem 12rem;
+  padding: 2rem 0rem;
 }
 .project-item{
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 25%;
   padding:0 2rem;
 }
 a.project-card{
